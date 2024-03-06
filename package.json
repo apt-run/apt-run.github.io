@@ -1,0 +1,9 @@
+{
+  "name": "apt.run",
+  "version": "1.0.0",
+  "description": "Apt frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
