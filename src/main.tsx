@@ -10,11 +10,11 @@ import Search from "./routes/Search.tsx";
 import Footer from "./components/Footer.tsx";
 
 const Layout = () => (
-  <>
+  <section className="layout">
     <Header />
     <Outlet />
     <Footer />
-  </>
+  </section>
 );
 
 const router = createBrowserRouter([

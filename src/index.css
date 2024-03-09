@@ -11,10 +11,17 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: lightblue; */
+  margin: 0;
+}
+
+.layout {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  /* background-color: cornflowerblue; */
+  margin: 0;
 }
 
 a {
@@ -76,10 +83,6 @@ button:focus-visible {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {

@@ -4,14 +4,12 @@ import "./Main.css";
 export default function Search() {
   return (
     <section className="main-container">
-      <div className="main-container">
-        <p> 🔨 In Developement </p>
-        <div>search_page</div>
+      <p> 🔨 In Developement </p>
+      <div>search_page</div>
 
-        <p>
-          🔨 Contribute <a>https://github.com/apt-run </a> !
-        </p>
-      </div>
+      <p>
+        🔨 Contribute <a>https://github.com/apt-run </a> !
+      </p>
       <Table />
     </section>
   );

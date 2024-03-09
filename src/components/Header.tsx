@@ -7,13 +7,25 @@ export const Header = () => {
   return (
     <section className="header">
       <section className="topbar">
-        <Link to="/">home_icon</Link>
-        <Link to="https://wiki.debian.org/Apt">Install apt</Link>
-        <Link to="https://github.com/apt-run" target="_blank">
-          Support us
+        <Link className="toplink" to="/">
+          home_icon
         </Link>
-        <Link to="https://github.com/apt-run" target="_blank">
+        <Link className="toplink" to="https://wiki.debian.org/Apt">
+          Install apt
+        </Link>
+        <Link
+          className="toplink"
+          to="https://github.com/apt-run"
+          target="_blank"
+        >
           Github
+        </Link>
+        <Link
+          className="toplink"
+          to="https://github.com/apt-run"
+          target="_blank"
+        >
+          Support us
         </Link>
       </section>
       <div className="header-content">
