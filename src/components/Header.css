@@ -67,6 +67,22 @@
   filter: drop-shadow(0 0 2em green);
 }
 
+.logolink:focus {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logolink.react:focus {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.logolink.debian:focus {
+  filter: drop-shadow(0 0 2em red);
+}
+.logolink.ubuntu:focus {
+  filter: drop-shadow(0 0 2em orange);
+}
+.logolink.mint:focus {
+  filter: drop-shadow(0 0 2em green);
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);

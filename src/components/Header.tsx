@@ -34,19 +34,31 @@ export const Header = () => {
         </Link>
       </section>
       <div className="header-content">
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" className="logolink">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" className="logolink react">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
-        <a href="https://debian.org" target="_blank">
+        <a
+          href="https://debian.org"
+          target="_blank"
+          className="logolink debian"
+        >
           <img src={debianlogo} className="logo debian" alt="Debian logo" />
         </a>
-        <a href="https://ubuntu.com" target="_blank">
+        <a
+          href="https://ubuntu.com"
+          target="_blank"
+          className="logolink ubuntu"
+        >
           <img src={ubuntulogo} className="logo ubuntu" alt="Ubuntu logo" />
         </a>
-        <a href="https://linuxmint.com" target="_blank">
+        <a
+          href="https://linuxmint.com"
+          target="_blank"
+          className="logolink mint"
+        >
           <img src={mintlogo} className="logo mint" alt="Mint logo" />
         </a>
       </div>
