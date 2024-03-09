@@ -41,7 +41,7 @@ export const Header = () => {
         <a href="https://debian.org" target="_blank">
           <img src={debianlogo} className="logo debian" alt="Debian logo" />
         </a>
-        <a href="https://debian.org" target="_blank">
+        <a href="https://ubuntu.com" target="_blank">
           <img src={ubuntulogo} className="logo ubuntu" alt="Ubuntu logo" />
         </a>
       </div>
