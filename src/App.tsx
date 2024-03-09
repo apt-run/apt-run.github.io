@@ -1,29 +1,43 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Home from "./routes/Home";
+import { Navigation } from "./components/Navigation";
+import Package from "./routes/Package";
+import Search from "./routes/Search";
 
-function App() {
+const HeaderLayout = () => (
+  <>
+    <header className="header">
+      <Navigation />
+    </header>
+    <Outlet />
+  </>
+);
 
+const router = createBrowserRouter([
+  {
+    element: <HeaderLayout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/search",
+        element: <Search />,
+      },
+      {
+        path: "/package",
+        element: <Package />,
+      },
+    ],
+  },
+]);
+
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>apt.run</h1>
-      <div className="card">
-
-        <p> 🔨 In Developement </p>
-      </div>
-      <p className="read-the-docs">
-        To learn more visit <a>https://github.com/apt-run</a>
-      </p>
-    </>
-  )
+    <div className="App">
+      <RouterProvider router={router} />
+    </div>
+  );
 }
-
-export default App
