@@ -1,11 +1,11 @@
 import reactLogo from "../assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./Navigation.css";
+import "./Header.css";
 import { Link } from "react-router-dom";
 
-export const Navigation = () => {
+export const Header = () => {
   return (
-    <>
+    <section className="header">
       <section className="topbar">
         <Link to="/">home_icon</Link>
         <Link to="https://wiki.debian.org/Apt">Install apt</Link>
@@ -16,8 +16,8 @@ export const Navigation = () => {
           Github
         </Link>
       </section>
-      <h1>apt.run</h1>
-      <div>
+      <div className="header-content">
+        <h1>apt.run</h1>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -26,13 +26,12 @@ export const Navigation = () => {
         </a>
       </div>
 
-      <section className="header-content">
+      <section className="header-footer">
         <div>
           <Link to="/search">search_icon</Link>
           <input />
         </div>
-        <Link to="/package">Package_Name</Link>
       </section>
-    </>
+    </section>
   );
 };

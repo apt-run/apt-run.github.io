@@ -1,16 +1,15 @@
+import "./Main.css";
+
 export default function Package() {
   return (
-    <>
+    <main className="main-container">
       <div className="card">
-        <div>package_page</div>
         <p> 🔨 In Developement </p>
+        <div>package_page</div>
         <p>
           🔨 Contribute <a>https://github.com/apt-run </a> !{" "}
         </p>
       </div>
-      <p className="read-the-docs">
-        To learn more visit <a>https://github.com/apt-run</a>
-      </p>
-    </>
+    </main>
   );
 }

@@ -1,0 +1,15 @@
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+  height: 100%;
+  gap: 1rem;
+  padding: 5rem;
+}
+
+.table-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
