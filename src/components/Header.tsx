@@ -6,7 +6,7 @@ import viteLogo from "/vite.svg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-import { IoIosSearch } from "react-icons/io";
+// import { IoIosSearch } from "react-icons/io";
 
 export const Header = () => {
   return (
