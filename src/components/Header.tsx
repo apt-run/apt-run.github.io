@@ -1,8 +1,10 @@
-import reactLogo from "../assets/react.svg";
-import debianlogo from "../assets/debian2.svg";
-import ubuntulogo from "../assets/ubuntu.svg";
-import mintlogo from "../assets/mint.svg";
+import reactLogo from "/react.svg";
+import debianlogo from "/debian2.svg";
+import ubuntulogo from "/ubuntu.svg";
+import mintlogo from "/mint.svg";
+import aptlogo from "/apttest.png";
 import viteLogo from "/vite.svg";
+
 import "./Header.css";
 import { Link } from "react-router-dom";
 
@@ -13,7 +15,7 @@ export const Header = () => {
     <section className="header">
       <section className="topbar">
         <Link className="toplink" to="/">
-          home_icon
+          <img src={aptlogo} alt="" style={{ width: "3rem", height: "3rem" }} />
         </Link>
         <Link className="toplink" to="https://wiki.debian.org/Apt">
           Install apt
