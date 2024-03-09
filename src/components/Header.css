@@ -4,6 +4,7 @@
   align-items: center;
   /* background-color: lightblue; */
   width: 100%;
+  margin: 1rem;
 }
 
 .topbar {
@@ -11,7 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  text-decoration: underline;
   gap: 1rem;
   width: 100%;
   /* background-color: aliceblue; */
@@ -20,12 +20,14 @@
 .toplink {
   padding: 2rem;
   padding-left: 3%;
+  will-change: filter;
+  transition: filter 300ms;
 }
-
+.toplink:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
 .toplink:focus {
-  padding: 2rem;
-  padding-left: 3%;
-  /* background-color: cornflowerblue; */
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .header-content {
@@ -41,7 +43,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
 }
 
 .logo {
@@ -104,19 +105,20 @@
 
 .searchinput {
   background-color: white;
-  border: solid 6px black;
-  padding: 1rem 2rem;
+  border: solid 1px transparent;
+  padding: 0.5rem 2rem;
   min-width: 100%;
   color: black;
-}
-.searchinput {
-  background-color: white;
-  border: solid 4px black;
-  padding: 1rem 2rem;
-  min-width: 100%;
+  will-change: filter;
+  transition: filter 300ms;
 }
 
+.searchinput:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
 .searchinput:focus {
+  filter: drop-shadow(0 0 2em rgb(255, 111, 0));
+  /* caret-color: rgb(0, 200, 0); */
   border-color: #646cff;
   outline: #646cff;
   color: black;
