@@ -6,6 +6,8 @@ import viteLogo from "/vite.svg";
 import "./Header.css";
 import { Link } from "react-router-dom";
 
+import { IoIosSearch } from "react-icons/io";
+
 export const Header = () => {
   return (
     <section className="header">
@@ -48,13 +50,14 @@ export const Header = () => {
           <img src={mintlogo} className="logo mint" alt="Mint logo" />
         </a>
       </div>
-      <h1>apt.run</h1>
 
+      <h1>apt.run</h1>
       <section className="header-footer">
-        <div>
-          <Link to="/search">search_icon</Link>
-          <input />
-        </div>
+        <input
+          className="searchinput"
+          placeholder="Search Packages"
+          type="search"
+        />
       </section>
     </section>
   );
