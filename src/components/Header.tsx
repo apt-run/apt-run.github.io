@@ -31,7 +31,6 @@ export const Header = () => {
         </Link>
       </section>
       <div className="header-content">
-        <h1>apt.run</h1>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -45,6 +44,7 @@ export const Header = () => {
           <img src={ubuntulogo} className="logo ubuntu" alt="Ubuntu logo" />
         </a>
       </div>
+      <h1>apt.run</h1>
 
       <section className="header-footer">
         <div>

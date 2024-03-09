@@ -34,17 +34,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 3rem;
 }
 
 .header-footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   /* background-color: blue; */
-  padding: 3rem;
+  padding: 2rem;
   border: solid 1px white;
   border-radius: 4px;
+  width: 25%;
 }
 
 .logo {
