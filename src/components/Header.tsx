@@ -1,5 +1,6 @@
 import reactLogo from "../assets/react.svg";
 import debianlogo from "../assets/debian2.svg";
+import ubuntulogo from "../assets/ubuntu.svg";
 import viteLogo from "/vite.svg";
 import "./Header.css";
 import { Link } from "react-router-dom";
@@ -39,6 +40,9 @@ export const Header = () => {
         </a>
         <a href="https://debian.org" target="_blank">
           <img src={debianlogo} className="logo debian" alt="Debian logo" />
+        </a>
+        <a href="https://debian.org" target="_blank">
+          <img src={ubuntulogo} className="logo ubuntu" alt="Ubuntu logo" />
         </a>
       </div>
 
