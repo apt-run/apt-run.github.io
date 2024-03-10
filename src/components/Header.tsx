@@ -77,21 +77,30 @@ export const Header = () => {
           placeholder="&#xF002; Search apt packages"
           style={{ fontFamily: "Arial, FontAwesome" }}
           autoComplete="on"
-          // autoFocus
+          autoFocus
         />
       </Form>
       <Link style={{ border: "none" }} to={"/package"}>
         <button
           style={{ margin: "1rem" }}
           autoFocus
-          // onClick={async () => {
-          //   const res = await fetch(
-          //     "https://sources.debian.org/patches/api/prefix/libz/"
-          //   );
-          //   if (!res.ok) throw new Error("Failed to fetch More Properties.");
-          //   const data = await res.json();
-          //   console.log(data);
-          // }}
+          onClick={() => {
+            console.log("Starting Request...");
+
+            // fetch("https://sources.debian.org/patches/api/prefix/libz/")
+            //   .then((response) => {
+            //     if (!response.ok) {
+            //       console.log(response.status);
+            //       console.log(response.statusText);
+            //       throw new Error("Network response was not ok");
+            //     }
+            //     return response.json();
+            //   })
+            //   .then((data) => console.log(data))
+            //   .catch((error) =>
+            //     console.error("Error fetching package information:", error)
+            //   );
+          }}
         >
           /package
         </button>
