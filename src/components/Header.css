@@ -39,12 +39,19 @@
 .toplink.apt:focus {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
 .header-content {
   display: flex;
   /* background-color: blue; */
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 4em;
+  padding: 2rem;
 }
 
 .logo {

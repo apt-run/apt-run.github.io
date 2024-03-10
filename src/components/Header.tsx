@@ -68,11 +68,11 @@ export const Header = () => {
         </a>
       </div>
 
-      <h1>apt.run</h1>
+      <div className="title">apt.run</div>
       <Form method="get" action="/search" className="header-footer">
         <input
           className="searchinput"
-          placeholder="&#xF002; Search apt pacckages"
+          placeholder="&#xF002; Search apt packages"
           style={{ fontFamily: "Arial, FontAwesome" }}
           autoComplete="on"
           // autoFocus
