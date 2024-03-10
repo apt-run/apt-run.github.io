@@ -83,7 +83,7 @@ export const Header = () => {
       <Link style={{ border: "none" }} to={"/package"}>
         <button
           style={{ margin: "1rem" }}
-          autoFocus
+          // autoFocus
           onClick={() => {
             console.log("Starting Request...");
 
