@@ -1,0 +1,2160 @@
+{
+  "packages": [
+    {
+      "name": "libc"
+    },
+    {
+      "name": "libc++"
+    },
+    {
+      "name": "libc-scan-perl"
+    },
+    {
+      "name": "libc-sparc"
+    },
+    {
+      "name": "libcaca"
+    },
+    {
+      "name": "libcacard"
+    },
+    {
+      "name": "libcache-bdb-perl"
+    },
+    {
+      "name": "libcache-cache-perl"
+    },
+    {
+      "name": "libcache-fastmmap-perl"
+    },
+    {
+      "name": "libcache-historical-perl"
+    },
+    {
+      "name": "libcache-lru-perl"
+    },
+    {
+      "name": "libcache-memcached-fast-perl"
+    },
+    {
+      "name": "libcache-memcached-fast-safe-perl"
+    },
+    {
+      "name": "libcache-memcached-getparserxs-perl"
+    },
+    {
+      "name": "libcache-memcached-libmemcached-perl"
+    },
+    {
+      "name": "libcache-memcached-managed-perl"
+    },
+    {
+      "name": "libcache-memcached-perl"
+    },
+    {
+      "name": "libcache-mmap-perl"
+    },
+    {
+      "name": "libcache-perl"
+    },
+    {
+      "name": "libcache-ref-perl"
+    },
+    {
+      "name": "libcache-simple-timedexpiry-perl"
+    },
+    {
+      "name": "libcairo"
+    },
+    {
+      "name": "libcairo-gobject-perl"
+    },
+    {
+      "name": "libcairo-perl"
+    },
+    {
+      "name": "libcairo-ruby"
+    },
+    {
+      "name": "libcal-dav-perl"
+    },
+    {
+      "name": "libcalendar-simple-perl"
+    },
+    {
+      "name": "libcall-context-perl"
+    },
+    {
+      "name": "libcallstats-java"
+    },
+    {
+      "name": "libcam-pdf-perl"
+    },
+    {
+      "name": "libcamera"
+    },
+    {
+      "name": "libcanary-stability-perl"
+    },
+    {
+      "name": "libcanberra"
+    },
+    {
+      "name": "libcangjie"
+    },
+    {
+      "name": "libcanlock"
+    },
+    {
+      "name": "libcap"
+    },
+    {
+      "name": "libcap-ng"
+    },
+    {
+      "name": "libcap2"
+    },
+    {
+      "name": "libcapi20-3"
+    },
+    {
+      "name": "libcapplet"
+    },
+    {
+      "name": "libcapsinetwork"
+    },
+    {
+      "name": "libcaptcha-recaptcha-perl"
+    },
+    {
+      "name": "libcapture-tiny-perl"
+    },
+    {
+      "name": "libcaptury"
+    },
+    {
+      "name": "libcarp-always-perl"
+    },
+    {
+      "name": "libcarp-assert-more-perl"
+    },
+    {
+      "name": "libcarp-assert-perl"
+    },
+    {
+      "name": "libcarp-clan-perl"
+    },
+    {
+      "name": "libcarp-clan-share-perl"
+    },
+    {
+      "name": "libcarp-datum-perl"
+    },
+    {
+      "name": "libcarp-fix-1-25-perl"
+    },
+    {
+      "name": "libcassandra-client-perl"
+    },
+    {
+      "name": "libcatalyst-action-renderview-perl"
+    },
+    {
+      "name": "libcatalyst-action-rest-perl"
+    },
+    {
+      "name": "libcatalyst-action-serialize-data-serializer-perl"
+    },
+    {
+      "name": "libcatalyst-actionrole-acl-perl"
+    },
+    {
+      "name": "libcatalyst-actionrole-checktrailingslash-perl"
+    },
+    {
+      "name": "libcatalyst-actionrole-requiressl-perl"
+    },
+    {
+      "name": "libcatalyst-authentication-credential-authen-simple-perl"
+    },
+    {
+      "name": "libcatalyst-authentication-credential-http-perl"
+    },
+    {
+      "name": "libcatalyst-authentication-store-dbix-class-perl"
+    },
+    {
+      "name": "libcatalyst-authentication-store-htpasswd-perl"
+    },
+    {
+      "name": "libcatalyst-component-instancepercontext-perl"
+    },
+    {
+      "name": "libcatalyst-controller-actionrole-perl"
+    },
+    {
+      "name": "libcatalyst-controller-formbuilder-perl"
+    },
+    {
+      "name": "libcatalyst-controller-html-formfu-perl"
+    },
+    {
+      "name": "libcatalyst-devel-perl"
+    },
+    {
+      "name": "libcatalyst-dispatchtype-regex-perl"
+    },
+    {
+      "name": "libcatalyst-engine-apache-perl"
+    },
+    {
+      "name": "libcatalyst-engine-psgi-perl"
+    },
+    {
+      "name": "libcatalyst-log-log4perl-perl"
+    },
+    {
+      "name": "libcatalyst-manual-perl"
+    },
+    {
+      "name": "libcatalyst-model-adaptor-perl"
+    },
+    {
+      "name": "libcatalyst-model-cdbi-crud-perl"
+    },
+    {
+      "name": "libcatalyst-model-cdbi-perl"
+    },
+    {
+      "name": "libcatalyst-model-dbi-perl"
+    },
+    {
+      "name": "libcatalyst-model-dbic-schema-perl"
+    },
+    {
+      "name": "libcatalyst-modules-extra-perl"
+    },
+    {
+      "name": "libcatalyst-modules-perl"
+    },
+    {
+      "name": "libcatalyst-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-authentication-credential-openid-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-authentication-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-authorization-acl-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-authorization-roles-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-cache-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-cache-store-fastmmap-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-captcha-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-compress-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-configloader-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-customerrormessage-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-fillinform-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-formvalidator-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-i18n-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-log-dispatch-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-redirect-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-scheduler-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-fastmmap-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-state-cookie-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-cache-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-dbi-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-dbic-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-delegate-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-fastmmap-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-file-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-session-store-redis-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-setenv-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-smarturi-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-stacktrace-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-static-simple-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-subrequest-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-unicode-encoding-perl"
+    },
+    {
+      "name": "libcatalyst-plugin-unicode-perl"
+    },
+    {
+      "name": "libcatalyst-view-component-subinclude-perl"
+    },
+    {
+      "name": "libcatalyst-view-csv-perl"
+    },
+    {
+      "name": "libcatalyst-view-email-perl"
+    },
+    {
+      "name": "libcatalyst-view-excel-template-plus-perl"
+    },
+    {
+      "name": "libcatalyst-view-gd-perl"
+    },
+    {
+      "name": "libcatalyst-view-json-perl"
+    },
+    {
+      "name": "libcatalyst-view-mason-perl"
+    },
+    {
+      "name": "libcatalyst-view-pdf-reuse-perl"
+    },
+    {
+      "name": "libcatalyst-view-petal-perl"
+    },
+    {
+      "name": "libcatalyst-view-tt-perl"
+    },
+    {
+      "name": "libcatalystx-component-traits-perl"
+    },
+    {
+      "name": "libcatalystx-injectcomponent-perl"
+    },
+    {
+      "name": "libcatalystx-leakchecker-perl"
+    },
+    {
+      "name": "libcatalystx-simplelogin-perl"
+    },
+    {
+      "name": "libcatmandu-aat-perl"
+    },
+    {
+      "name": "libcatmandu-alephx-perl"
+    },
+    {
+      "name": "libcatmandu-atom-perl"
+    },
+    {
+      "name": "libcatmandu-bibtex-perl"
+    },
+    {
+      "name": "libcatmandu-blacklight-perl"
+    },
+    {
+      "name": "libcatmandu-breaker-perl"
+    },
+    {
+      "name": "libcatmandu-cmd-repl-perl"
+    },
+    {
+      "name": "libcatmandu-crossref-perl"
+    },
+    {
+      "name": "libcatmandu-dbi-perl"
+    },
+    {
+      "name": "libcatmandu-exporter-table-perl"
+    },
+    {
+      "name": "libcatmandu-fedoracommons-perl"
+    },
+    {
+      "name": "libcatmandu-filestore-perl"
+    },
+    {
+      "name": "libcatmandu-fix-cmd-perl"
+    },
+    {
+      "name": "libcatmandu-fix-datahub-perl"
+    },
+    {
+      "name": "libcatmandu-html-perl"
+    },
+    {
+      "name": "libcatmandu-i18n-perl"
+    },
+    {
+      "name": "libcatmandu-identifier-perl"
+    },
+    {
+      "name": "libcatmandu-importer-getjson-perl"
+    },
+    {
+      "name": "libcatmandu-inspire-perl"
+    },
+    {
+      "name": "libcatmandu-ldap-perl"
+    },
+    {
+      "name": "libcatmandu-mab2-perl"
+    },
+    {
+      "name": "libcatmandu-marc-perl"
+    },
+    {
+      "name": "libcatmandu-markdown-perl"
+    },
+    {
+      "name": "libcatmandu-mediawiki-perl"
+    },
+    {
+      "name": "libcatmandu-mendeley-perl"
+    },
+    {
+      "name": "libcatmandu-mods-perl"
+    },
+    {
+      "name": "libcatmandu-oai-perl"
+    },
+    {
+      "name": "libcatmandu-perl"
+    },
+    {
+      "name": "libcatmandu-plos-perl"
+    },
+    {
+      "name": "libcatmandu-pubmed-perl"
+    },
+    {
+      "name": "libcatmandu-pure-perl"
+    },
+    {
+      "name": "libcatmandu-rdf-perl"
+    },
+    {
+      "name": "libcatmandu-ris-perl"
+    },
+    {
+      "name": "libcatmandu-solr-perl"
+    },
+    {
+      "name": "libcatmandu-sru-perl"
+    },
+    {
+      "name": "libcatmandu-stat-perl"
+    },
+    {
+      "name": "libcatmandu-store-elasticsearch-perl"
+    },
+    {
+      "name": "libcatmandu-store-lucy-perl"
+    },
+    {
+      "name": "libcatmandu-store-mongodb-perl"
+    },
+    {
+      "name": "libcatmandu-template-perl"
+    },
+    {
+      "name": "libcatmandu-viaf-perl"
+    },
+    {
+      "name": "libcatmandu-wikidata-perl"
+    },
+    {
+      "name": "libcatmandu-xls-perl"
+    },
+    {
+      "name": "libcatmandu-xml-perl"
+    },
+    {
+      "name": "libcatmandu-xsd-perl"
+    },
+    {
+      "name": "libcatmandu-z3950-perl"
+    },
+    {
+      "name": "libcatmandu-zotero-perl"
+    },
+    {
+      "name": "libcbor"
+    },
+    {
+      "name": "libcbor-xs-perl"
+    },
+    {
+      "name": "libccaudio"
+    },
+    {
+      "name": "libccaudio2"
+    },
+    {
+      "name": "libccd"
+    },
+    {
+      "name": "libccp4"
+    },
+    {
+      "name": "libccrtp"
+    },
+    {
+      "name": "libccscript"
+    },
+    {
+      "name": "libccscript3"
+    },
+    {
+      "name": "libccss"
+    },
+    {
+      "name": "libcdaudio"
+    },
+    {
+      "name": "libcdb-file-perl"
+    },
+    {
+      "name": "libcddb"
+    },
+    {
+      "name": "libcddb-file-perl"
+    },
+    {
+      "name": "libcddb-get-perl"
+    },
+    {
+      "name": "libcddb-perl"
+    },
+    {
+      "name": "libcdg123"
+    },
+    {
+      "name": "libcdio"
+    },
+    {
+      "name": "libcdio-paranoia"
+    },
+    {
+      "name": "libcdk"
+    },
+    {
+      "name": "libcdk-perl"
+    },
+    {
+      "name": "libcdk5"
+    },
+    {
+      "name": "libcdr"
+    },
+    {
+      "name": "libcds"
+    },
+    {
+      "name": "libcds-moc-java"
+    },
+    {
+      "name": "libcds-savot-java"
+    },
+    {
+      "name": "libcec"
+    },
+    {
+      "name": "libcereal"
+    },
+    {
+      "name": "libcerf"
+    },
+    {
+      "name": "libcflow-perl"
+    },
+    {
+      "name": "libcgi"
+    },
+    {
+      "name": "libcgi-ajax-perl"
+    },
+    {
+      "name": "libcgi-application-basic-plugin-bundle-perl"
+    },
+    {
+      "name": "libcgi-application-dispatch-perl"
+    },
+    {
+      "name": "libcgi-application-extra-plugin-bundle-perl"
+    },
+    {
+      "name": "libcgi-application-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-actiondispatch-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-ajaxupload-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-anytemplate-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-authentication-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-authorization-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-autorunmode-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-captcha-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-config-simple-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-configauto-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-dbh-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-dbiprofile-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-debugscreen-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-devpopup-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-fillinform-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-formstate-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-forward-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-json-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-linkintegrity-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-logdispatch-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-messagestack-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-protectcsrf-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-ratelimit-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-requiressl-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-session-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-stream-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-tt-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-validaterm-perl"
+    },
+    {
+      "name": "libcgi-application-plugin-viewcode-perl"
+    },
+    {
+      "name": "libcgi-application-plugins-perl"
+    },
+    {
+      "name": "libcgi-application-server-perl"
+    },
+    {
+      "name": "libcgi-compile-perl"
+    },
+    {
+      "name": "libcgi-compress-gzip-perl"
+    },
+    {
+      "name": "libcgi-cookie-splitter-perl"
+    },
+    {
+      "name": "libcgi-emulate-psgi-perl"
+    },
+    {
+      "name": "libcgi-expand-perl"
+    },
+    {
+      "name": "libcgi-fast-perl"
+    },
+    {
+      "name": "libcgi-fasttemplate-perl"
+    },
+    {
+      "name": "libcgi-formalware-perl"
+    },
+    {
+      "name": "libcgi-formbuilder-perl"
+    },
+    {
+      "name": "libcgi-formbuilder-source-perl-perl"
+    },
+    {
+      "name": "libcgi-formbuilder-source-yaml-perl"
+    },
+    {
+      "name": "libcgi-github-webhook-perl"
+    },
+    {
+      "name": "libcgi-perl"
+    },
+    {
+      "name": "libcgi-pm-perl"
+    },
+    {
+      "name": "libcgi-psgi-perl"
+    },
+    {
+      "name": "libcgi-session-driver-chi-perl"
+    },
+    {
+      "name": "libcgi-session-driver-memcached-perl"
+    },
+    {
+      "name": "libcgi-session-expiresessions-perl"
+    },
+    {
+      "name": "libcgi-session-perl"
+    },
+    {
+      "name": "libcgi-session-serialize-yaml-perl"
+    },
+    {
+      "name": "libcgi-simple-perl"
+    },
+    {
+      "name": "libcgi-ssi-parser-perl"
+    },
+    {
+      "name": "libcgi-ssi-perl"
+    },
+    {
+      "name": "libcgi-struct-xs-perl"
+    },
+    {
+      "name": "libcgi-test-perl"
+    },
+    {
+      "name": "libcgi-tiny-perl"
+    },
+    {
+      "name": "libcgi-untaint-date-perl"
+    },
+    {
+      "name": "libcgi-untaint-email-perl"
+    },
+    {
+      "name": "libcgi-untaint-perl"
+    },
+    {
+      "name": "libcgi-uploader-perl"
+    },
+    {
+      "name": "libcgi-validop-perl"
+    },
+    {
+      "name": "libcgi-xml-perl"
+    },
+    {
+      "name": "libcgi-xmlapplication-perl"
+    },
+    {
+      "name": "libcgi-xmlform-perl"
+    },
+    {
+      "name": "libcgic"
+    },
+    {
+      "name": "libcgicc"
+    },
+    {
+      "name": "libcgns"
+    },
+    {
+      "name": "libcgroup"
+    },
+    {
+      "name": "libch"
+    },
+    {
+      "name": "libchado-perl"
+    },
+    {
+      "name": "libchamplain"
+    },
+    {
+      "name": "libchardet"
+    },
+    {
+      "name": "libcharles0"
+    },
+    {
+      "name": "libcharon"
+    },
+    {
+      "name": "libchart-clicker-perl"
+    },
+    {
+      "name": "libchart-gnuplot-perl"
+    },
+    {
+      "name": "libchart-perl"
+    },
+    {
+      "name": "libchart-strip-perl"
+    },
+    {
+      "name": "libchatbot-eliza-perl"
+    },
+    {
+      "name": "libchdr"
+    },
+    {
+      "name": "libcheck-isa-perl"
+    },
+    {
+      "name": "libchemistry-elements-perl"
+    },
+    {
+      "name": "libchemistry-file-mdlmol-perl"
+    },
+    {
+      "name": "libchemistry-formula-perl"
+    },
+    {
+      "name": "libchemistry-isotope-perl"
+    },
+    {
+      "name": "libchemistry-mol-perl"
+    },
+    {
+      "name": "libchemistry-opensmiles-perl"
+    },
+    {
+      "name": "libchemistry-ring-perl"
+    },
+    {
+      "name": "libchewing"
+    },
+    {
+      "name": "libchi-driver-memcached-perl"
+    },
+    {
+      "name": "libchi-driver-redis-perl"
+    },
+    {
+      "name": "libchi-memoize-perl"
+    },
+    {
+      "name": "libchi-perl"
+    },
+    {
+      "name": "libchild-perl"
+    },
+    {
+      "name": "libchipcard"
+    },
+    {
+      "name": "libchipcard2"
+    },
+    {
+      "name": "libchronic-ruby"
+    },
+    {
+      "name": "libcidr"
+    },
+    {
+      "name": "libcifpp"
+    },
+    {
+      "name": "libcircle-be-perl"
+    },
+    {
+      "name": "libcircle-fe-term-perl"
+    },
+    {
+      "name": "libcitadel"
+    },
+    {
+      "name": "libcitygml"
+    },
+    {
+      "name": "libclamav-client-perl"
+    },
+    {
+      "name": "libclamunrar"
+    },
+    {
+      "name": "libclang-perl"
+    },
+    {
+      "name": "libclass-accessor-chained-perl"
+    },
+    {
+      "name": "libclass-accessor-children-perl"
+    },
+    {
+      "name": "libclass-accessor-class-perl"
+    },
+    {
+      "name": "libclass-accessor-classy-perl"
+    },
+    {
+      "name": "libclass-accessor-grouped-perl"
+    },
+    {
+      "name": "libclass-accessor-lite-perl"
+    },
+    {
+      "name": "libclass-accessor-lvalue-perl"
+    },
+    {
+      "name": "libclass-accessor-named-perl"
+    },
+    {
+      "name": "libclass-accessor-perl"
+    },
+    {
+      "name": "libclass-adapter-perl"
+    },
+    {
+      "name": "libclass-autoloadcan-perl"
+    },
+    {
+      "name": "libclass-autouse-perl"
+    },
+    {
+      "name": "libclass-base-perl"
+    },
+    {
+      "name": "libclass-c3-adopt-next-perl"
+    },
+    {
+      "name": "libclass-c3-componentised-perl"
+    },
+    {
+      "name": "libclass-c3-perl"
+    },
+    {
+      "name": "libclass-c3-xs-perl"
+    },
+    {
+      "name": "libclass-container-perl"
+    },
+    {
+      "name": "libclass-contract-perl"
+    },
+    {
+      "name": "libclass-csv-perl"
+    },
+    {
+      "name": "libclass-data-accessor-perl"
+    },
+    {
+      "name": "libclass-data-inheritable-perl"
+    },
+    {
+      "name": "libclass-date-perl"
+    },
+    {
+      "name": "libclass-dbi-abstractsearch-perl"
+    },
+    {
+      "name": "libclass-dbi-asform-perl"
+    },
+    {
+      "name": "libclass-dbi-fromcgi-perl"
+    },
+    {
+      "name": "libclass-dbi-fromform-perl"
+    },
+    {
+      "name": "libclass-dbi-loader-perl"
+    },
+    {
+      "name": "libclass-dbi-loader-relationship-perl"
+    },
+    {
+      "name": "libclass-dbi-mysql-perl"
+    },
+    {
+      "name": "libclass-dbi-pager-perl"
+    },
+    {
+      "name": "libclass-dbi-perl"
+    },
+    {
+      "name": "libclass-dbi-pg-perl"
+    },
+    {
+      "name": "libclass-dbi-plugin-abstractcount-perl"
+    },
+    {
+      "name": "libclass-dbi-plugin-pager-perl"
+    },
+    {
+      "name": "libclass-dbi-plugin-perl"
+    },
+    {
+      "name": "libclass-dbi-plugin-retrieveall-perl"
+    },
+    {
+      "name": "libclass-dbi-plugin-type-perl"
+    },
+    {
+      "name": "libclass-dbi-sqlite-perl"
+    },
+    {
+      "name": "libclass-dbi-sweet-perl"
+    },
+    {
+      "name": "libclass-default-perl"
+    },
+    {
+      "name": "libclass-delegator-perl"
+    },
+    {
+      "name": "libclass-ehierarchy-perl"
+    },
+    {
+      "name": "libclass-errorhandler-perl"
+    },
+    {
+      "name": "libclass-factory-perl"
+    },
+    {
+      "name": "libclass-factory-util-perl"
+    },
+    {
+      "name": "libclass-field-perl"
+    },
+    {
+      "name": "libclass-forward-perl"
+    },
+    {
+      "name": "libclass-gomor-perl"
+    },
+    {
+      "name": "libclass-handle-perl"
+    },
+    {
+      "name": "libclass-inner-perl"
+    },
+    {
+      "name": "libclass-insideout-perl"
+    },
+    {
+      "name": "libclass-inspector-perl"
+    },
+    {
+      "name": "libclass-isa-perl"
+    },
+    {
+      "name": "libclass-load-perl"
+    },
+    {
+      "name": "libclass-load-xs-perl"
+    },
+    {
+      "name": "libclass-loader-perl"
+    },
+    {
+      "name": "libclass-makemethods-perl"
+    },
+    {
+      "name": "libclass-measure-perl"
+    },
+    {
+      "name": "libclass-meta-perl"
+    },
+    {
+      "name": "libclass-method-modifiers-perl"
+    },
+    {
+      "name": "libclass-methodmaker-perl"
+    },
+    {
+      "name": "libclass-mix-perl"
+    },
+    {
+      "name": "libclass-mixinfactory-perl"
+    },
+    {
+      "name": "libclass-mop-perl"
+    },
+    {
+      "name": "libclass-multimethods-perl"
+    },
+    {
+      "name": "libclass-objecttemplate-perl"
+    },
+    {
+      "name": "libclass-ooorno-perl"
+    },
+    {
+      "name": "libclass-perl"
+    },
+    {
+      "name": "libclass-pluggable-perl"
+    },
+    {
+      "name": "libclass-prototyped-perl"
+    },
+    {
+      "name": "libclass-refresh-perl"
+    },
+    {
+      "name": "libclass-returnvalue-perl"
+    },
+    {
+      "name": "libclass-singleton-perl"
+    },
+    {
+      "name": "libclass-spiffy-perl"
+    },
+    {
+      "name": "libclass-std-fast-perl"
+    },
+    {
+      "name": "libclass-std-perl"
+    },
+    {
+      "name": "libclass-std-storable-perl"
+    },
+    {
+      "name": "libclass-std-utils-perl"
+    },
+    {
+      "name": "libclass-throwable-perl"
+    },
+    {
+      "name": "libclass-tiny-antlers-perl"
+    },
+    {
+      "name": "libclass-tiny-chained-perl"
+    },
+    {
+      "name": "libclass-tiny-perl"
+    },
+    {
+      "name": "libclass-trait-perl"
+    },
+    {
+      "name": "libclass-trigger-perl"
+    },
+    {
+      "name": "libclass-type-enum-perl"
+    },
+    {
+      "name": "libclass-unload-perl"
+    },
+    {
+      "name": "libclass-virtual-perl"
+    },
+    {
+      "name": "libclass-whitehole-perl"
+    },
+    {
+      "name": "libclass-xsaccessor-perl"
+    },
+    {
+      "name": "libclasslojure-clojure"
+    },
+    {
+      "name": "libclaw"
+    },
+    {
+      "name": "libclc"
+    },
+    {
+      "name": "libcleri"
+    },
+    {
+      "name": "libcli"
+    },
+    {
+      "name": "libcli-framework-perl"
+    },
+    {
+      "name": "libcli-osprey-perl"
+    },
+    {
+      "name": "libclipboard-perl"
+    },
+    {
+      "name": "libclone-choose-perl"
+    },
+    {
+      "name": "libclone-fast-perl"
+    },
+    {
+      "name": "libclone-perl"
+    },
+    {
+      "name": "libclone-pp-perl"
+    },
+    {
+      "name": "libcloud"
+    },
+    {
+      "name": "libcloudflare-client-perl"
+    },
+    {
+      "name": "libcloudproviders"
+    },
+    {
+      "name": "libclutter-perl"
+    },
+    {
+      "name": "libcm"
+    },
+    {
+      "name": "libcm256cc"
+    },
+    {
+      "name": "libcmd-ruby"
+    },
+    {
+      "name": "libcmdparse-ruby"
+    },
+    {
+      "name": "libcmdparse2-ruby"
+    },
+    {
+      "name": "libcmis"
+    },
+    {
+      "name": "libcmml"
+    },
+    {
+      "name": "libcmrt"
+    },
+    {
+      "name": "libcmtspeechdata"
+    },
+    {
+      "name": "libcoap"
+    },
+    {
+      "name": "libcoap2"
+    },
+    {
+      "name": "libcoap3"
+    },
+    {
+      "name": "libcoat-perl"
+    },
+    {
+      "name": "libcoat-persistent-perl"
+    },
+    {
+      "name": "libcobra-java"
+    },
+    {
+      "name": "libcode-tidyall-perl"
+    },
+    {
+      "name": "libcode-tidyall-plugin-clangformat-perl"
+    },
+    {
+      "name": "libcode-tidyall-plugin-sortlines-naturally-perl"
+    },
+    {
+      "name": "libcode-tidyall-plugin-uniquelines-perl"
+    },
+    {
+      "name": "libcode-tidyall-plugin-yaml-perl"
+    },
+    {
+      "name": "libcode-tidyall-plugin-yamlfrontmatter-perl"
+    },
+    {
+      "name": "libcodemodel-java"
+    },
+    {
+      "name": "libcodesize-java"
+    },
+    {
+      "name": "libcolor-ansi-util-perl"
+    },
+    {
+      "name": "libcolor-calc-perl"
+    },
+    {
+      "name": "libcolor-library-perl"
+    },
+    {
+      "name": "libcolor-palette-perl"
+    },
+    {
+      "name": "libcolor-rgb-util-perl"
+    },
+    {
+      "name": "libcolor-scheme-perl"
+    },
+    {
+      "name": "libcolor-spectrum-multi-perl"
+    },
+    {
+      "name": "libcolor-spectrum-perl"
+    },
+    {
+      "name": "libcolor-tools-ruby"
+    },
+    {
+      "name": "libcolt-free-java"
+    },
+    {
+      "name": "libcommandable-perl"
+    },
+    {
+      "name": "libcommandline-ruby"
+    },
+    {
+      "name": "libcommon-sense-perl"
+    },
+    {
+      "name": "libcommoncpp2"
+    },
+    {
+      "name": "libcommonmark-perl"
+    },
+    {
+      "name": "libcommons-attributes-java"
+    },
+    {
+      "name": "libcommons-cli-java"
+    },
+    {
+      "name": "libcommons-codec-java"
+    },
+    {
+      "name": "libcommons-collections-java"
+    },
+    {
+      "name": "libcommons-collections3-java"
+    },
+    {
+      "name": "libcommons-collections4-java"
+    },
+    {
+      "name": "libcommons-compress-java"
+    },
+    {
+      "name": "libcommons-dbcp-java"
+    },
+    {
+      "name": "libcommons-digester-java"
+    },
+    {
+      "name": "libcommons-discovery-java"
+    },
+    {
+      "name": "libcommons-el-java"
+    },
+    {
+      "name": "libcommons-fileupload-java"
+    },
+    {
+      "name": "libcommons-jexl-java"
+    },
+    {
+      "name": "libcommons-jexl2-java"
+    },
+    {
+      "name": "libcommons-jexl3-java"
+    },
+    {
+      "name": "libcommons-jxpath-java"
+    },
+    {
+      "name": "libcommons-lang-java"
+    },
+    {
+      "name": "libcommons-lang3-java"
+    },
+    {
+      "name": "libcommons-launcher-java"
+    },
+    {
+      "name": "libcommons-logging-java"
+    },
+    {
+      "name": "libcommons-modeler-java"
+    },
+    {
+      "name": "libcommons-net-java"
+    },
+    {
+      "name": "libcommons-net1-java"
+    },
+    {
+      "name": "libcommons-net2-java"
+    },
+    {
+      "name": "libcommons-openpgp-java"
+    },
+    {
+      "name": "libcommons-validator-java"
+    },
+    {
+      "name": "libcommuni"
+    },
+    {
+      "name": "libcompface"
+    },
+    {
+      "name": "libcompiler-lexer-perl"
+    },
+    {
+      "name": "libcompizconfig"
+    },
+    {
+      "name": "libcomplearn"
+    },
+    {
+      "name": "libcomplearn-mod-lzmax"
+    },
+    {
+      "name": "libcomplearn-mod-ppmd"
+    },
+    {
+      "name": "libcomplearn-mod-ppmdx"
+    },
+    {
+      "name": "libcomplearn-ruby"
+    },
+    {
+      "name": "libcompress-bzip2-perl"
+    },
+    {
+      "name": "libcompress-lz4-perl"
+    },
+    {
+      "name": "libcompress-raw-bzip2-perl"
+    },
+    {
+      "name": "libcompress-raw-lzma-perl"
+    },
+    {
+      "name": "libcompress-raw-zlib-perl"
+    },
+    {
+      "name": "libcompress-snappy-perl"
+    },
+    {
+      "name": "libcompress-zlib-perl"
+    },
+    {
+      "name": "libcomps"
+    },
+    {
+      "name": "libconcurrentlinkedhashmap-java"
+    },
+    {
+      "name": "libconcurrentunit-java"
+    },
+    {
+      "name": "libconfhelper-perl"
+    },
+    {
+      "name": "libconfig"
+    },
+    {
+      "name": "libconfig-any-perl"
+    },
+    {
+      "name": "libconfig-apacheformat-perl"
+    },
+    {
+      "name": "libconfig-augeas-perl"
+    },
+    {
+      "name": "libconfig-auto-perl"
+    },
+    {
+      "name": "libconfig-autoconf-perl"
+    },
+    {
+      "name": "libconfig-crontab-perl"
+    },
+    {
+      "name": "libconfig-file-perl"
+    },
+    {
+      "name": "libconfig-find-perl"
+    },
+    {
+      "name": "libconfig-general-perl"
+    },
+    {
+      "name": "libconfig-gitlike-perl"
+    },
+    {
+      "name": "libconfig-grammar-perl"
+    },
+    {
+      "name": "libconfig-identity-perl"
+    },
+    {
+      "name": "libconfig-inetd-perl"
+    },
+    {
+      "name": "libconfig-ini-perl"
+    },
+    {
+      "name": "libconfig-ini-reader-ordered-perl"
+    },
+    {
+      "name": "libconfig-ini-simple-perl"
+    },
+    {
+      "name": "libconfig-inifiles-perl"
+    },
+    {
+      "name": "libconfig-inihash-perl"
+    },
+    {
+      "name": "libconfig-jfdi-perl"
+    },
+    {
+      "name": "libconfig-json-perl"
+    },
+    {
+      "name": "libconfig-merge-perl"
+    },
+    {
+      "name": "libconfig-methodproxy-perl"
+    },
+    {
+      "name": "libconfig-model-approx-perl"
+    },
+    {
+      "name": "libconfig-model-backend-augeas-perl"
+    },
+    {
+      "name": "libconfig-model-backend-yaml-perl"
+    },
+    {
+      "name": "libconfig-model-cursesui-perl"
+    },
+    {
+      "name": "libconfig-model-dpkg-perl"
+    },
+    {
+      "name": "libconfig-model-itself-perl"
+    },
+    {
+      "name": "libconfig-model-lcdproc-perl"
+    },
+    {
+      "name": "libconfig-model-openssh-perl"
+    },
+    {
+      "name": "libconfig-model-perl"
+    },
+    {
+      "name": "libconfig-model-systemd-perl"
+    },
+    {
+      "name": "libconfig-model-tester-perl"
+    },
+    {
+      "name": "libconfig-model-tkui-perl"
+    },
+    {
+      "name": "libconfig-mvp-perl"
+    },
+    {
+      "name": "libconfig-mvp-reader-ini-perl"
+    },
+    {
+      "name": "libconfig-mvp-slicer-perl"
+    },
+    {
+      "name": "libconfig-onion-perl"
+    },
+    {
+      "name": "libconfig-pit-perl"
+    },
+    {
+      "name": "libconfig-properties-perl"
+    },
+    {
+      "name": "libconfig-record-perl"
+    },
+    {
+      "name": "libconfig-scoped-perl"
+    },
+    {
+      "name": "libconfig-simple-perl"
+    },
+    {
+      "name": "libconfig-std-perl"
+    },
+    {
+      "name": "libconfig-tiny-perl"
+    },
+    {
+      "name": "libconfig-yaml-perl"
+    },
+    {
+      "name": "libconfig-zomg-perl"
+    },
+    {
+      "name": "libconfigfile-perl"
+    },
+    {
+      "name": "libconfigreader-perl"
+    },
+    {
+      "name": "libconfigreader-simple-perl"
+    },
+    {
+      "name": "libconfuse"
+    },
+    {
+      "name": "libconst-fast-perl"
+    },
+    {
+      "name": "libconstant-defer-perl"
+    },
+    {
+      "name": "libconstant-generate-perl"
+    },
+    {
+      "name": "libconstantine-java"
+    },
+    {
+      "name": "libcontactsdb"
+    },
+    {
+      "name": "libcontext-preserve-perl"
+    },
+    {
+      "name": "libcontextual-return-perl"
+    },
+    {
+      "name": "libcontra"
+    },
+    {
+      "name": "libconvert-ascii-armour-perl"
+    },
+    {
+      "name": "libconvert-ascii85-perl"
+    },
+    {
+      "name": "libconvert-asn1-perl"
+    },
+    {
+      "name": "libconvert-base32-perl"
+    },
+    {
+      "name": "libconvert-basen-perl"
+    },
+    {
+      "name": "libconvert-ber-perl"
+    },
+    {
+      "name": "libconvert-binary-c-perl"
+    },
+    {
+      "name": "libconvert-binhex-perl"
+    },
+    {
+      "name": "libconvert-color-perl"
+    },
+    {
+      "name": "libconvert-color-xterm-perl"
+    },
+    {
+      "name": "libconvert-nls-date-format-perl"
+    },
+    {
+      "name": "libconvert-pem-perl"
+    },
+    {
+      "name": "libconvert-scalar-perl"
+    },
+    {
+      "name": "libconvert-tnef-perl"
+    },
+    {
+      "name": "libconvert-units-perl"
+    },
+    {
+      "name": "libconvert-uulib-perl"
+    },
+    {
+      "name": "libconvert-ytext-perl"
+    },
+    {
+      "name": "libcookie-baker-perl"
+    },
+    {
+      "name": "libcookie-baker-xs-perl"
+    },
+    {
+      "name": "libcorba-orbit-perl"
+    },
+    {
+      "name": "libcorelinux"
+    },
+    {
+      "name": "libcork"
+    },
+    {
+      "name": "libcorkipset"
+    },
+    {
+      "name": "libcoro-perl"
+    },
+    {
+      "name": "libcoro-twiggy-perl"
+    },
+    {
+      "name": "libcorona-perl"
+    },
+    {
+      "name": "libcotp"
+    },
+    {
+      "name": "libcourriel-perl"
+    },
+    {
+      "name": "libcoveb"
+    },
+    {
+      "name": "libcoverart"
+    },
+    {
+      "name": "libcoy-perl"
+    },
+    {
+      "name": "libcoyotl"
+    },
+    {
+      "name": "libcpan-audit-perl"
+    },
+    {
+      "name": "libcpan-changes-perl"
+    },
+    {
+      "name": "libcpan-checksums-perl"
+    },
+    {
+      "name": "libcpan-common-index-perl"
+    },
+    {
+      "name": "libcpan-distnameinfo-perl"
+    },
+    {
+      "name": "libcpan-inject-perl"
+    },
+    {
+      "name": "libcpan-meta-check-perl"
+    },
+    {
+      "name": "libcpan-meta-perl"
+    },
+    {
+      "name": "libcpan-meta-requirements-perl"
+    },
+    {
+      "name": "libcpan-meta-yaml-perl"
+    },
+    {
+      "name": "libcpan-mini-inject-perl"
+    },
+    {
+      "name": "libcpan-mini-perl"
+    },
+    {
+      "name": "libcpan-perl-releases-perl"
+    },
+    {
+      "name": "libcpan-reporter-perl"
+    },
+    {
+      "name": "libcpan-reporter-smoker-perl"
+    },
+    {
+      "name": "libcpan-sqlite-perl"
+    },
+    {
+      "name": "libcpan-uploader-perl"
+    },
+    {
+      "name": "libcpandb-perl"
+    },
+    {
+      "name": "libcpanel-json-xs-perl"
+    },
+    {
+      "name": "libcpanplus-dist-build-perl"
+    },
+    {
+      "name": "libcpanplus-perl"
+    },
+    {
+      "name": "libcps-perl"
+    },
+    {
+      "name": "libcpucycles"
+    },
+    {
+      "name": "libcpuid"
+    },
+    {
+      "name": "libcpuset"
+    },
+    {
+      "name": "libcql-parser-perl"
+    },
+    {
+      "name": "libcrcutil"
+    },
+    {
+      "name": "libcreg"
+    },
+    {
+      "name": "libcriticism-perl"
+    },
+    {
+      "name": "libcroco"
+    },
+    {
+      "name": "libcrypt-argon2-perl"
+    },
+    {
+      "name": "libcrypt-bcrypt-perl"
+    },
+    {
+      "name": "libcrypt-blowfish-perl"
+    },
+    {
+      "name": "libcrypt-cast5-perl"
+    },
+    {
+      "name": "libcrypt-cbc-perl"
+    },
+    {
+      "name": "libcrypt-cracklib-perl"
+    },
+    {
+      "name": "libcrypt-des-ede3-perl"
+    },
+    {
+      "name": "libcrypt-des-perl"
+    },
+    {
+      "name": "libcrypt-dh-gmp-perl"
+    },
+    {
+      "name": "libcrypt-dh-perl"
+    },
+    {
+      "name": "libcrypt-dsa-perl"
+    },
+    {
+      "name": "libcrypt-ecb-perl"
+    },
+    {
+      "name": "libcrypt-eksblowfish-perl"
+    },
+    {
+      "name": "libcrypt-format-perl"
+    },
+    {
+      "name": "libcrypt-gcrypt-perl"
+    },
+    {
+      "name": "libcrypt-generatepassword-perl"
+    },
+    {
+      "name": "libcrypt-gpg-perl"
+    },
+    {
+      "name": "libcrypt-hcesha-perl"
+    },
+    {
+      "name": "libcrypt-jwt-perl"
+    },
+    {
+      "name": "libcrypt-mysql-perl"
+    },
+    {
+      "name": "libcrypt-openssl-bignum-perl"
+    },
+    {
+      "name": "libcrypt-openssl-dsa-perl"
+    },
+    {
+      "name": "libcrypt-openssl-ec-perl"
+    },
+    {
+      "name": "libcrypt-openssl-guess-perl"
+    },
+    {
+      "name": "libcrypt-openssl-pkcs10-perl"
+    },
+    {
+      "name": "libcrypt-openssl-pkcs12-perl"
+    },
+    {
+      "name": "libcrypt-openssl-random-perl"
+    },
+    {
+      "name": "libcrypt-openssl-rsa-perl"
+    },
+    {
+      "name": "libcrypt-openssl-x509-perl"
+    },
+    {
+      "name": "libcrypt-passwdmd5-perl"
+    },
+    {
+      "name": "libcrypt-pbkdf2-perl"
+    },
+    {
+      "name": "libcrypt-random-seed-perl"
+    },
+    {
+      "name": "libcrypt-random-source-perl"
+    },
+    {
+      "name": "libcrypt-rc4-perl"
+    },
+    {
+      "name": "libcrypt-rijndael-perl"
+    },
+    {
+      "name": "libcrypt-rsa-parse-perl"
+    },
+    {
+      "name": "libcrypt-saltedhash-perl"
+    },
+    {
+      "name": "libcrypt-simple-perl"
+    },
+    {
+      "name": "libcrypt-smbhash-perl"
+    },
+    {
+      "name": "libcrypt-smime-perl"
+    },
+    {
+      "name": "libcrypt-ssleay-perl"
+    },
+    {
+      "name": "libcrypt-twofish-perl"
+    },
+    {
+      "name": "libcrypt-u2f-server-perl"
+    },
+    {
+      "name": "libcrypt-unixcrypt-perl"
+    },
+    {
+      "name": "libcrypt-unixcrypt-xs-perl"
+    },
+    {
+      "name": "libcrypt-urandom-perl"
+    },
+    {
+      "name": "libcrypt-util-perl"
+    },
+    {
+      "name": "libcrypt-x509-perl"
+    },
+    {
+      "name": "libcrypt-xxhash-perl"
+    },
+    {
+      "name": "libcrypto++"
+    },
+    {
+      "name": "libcryptui"
+    },
+    {
+      "name": "libcryptx-perl"
+    },
+    {
+      "name": "libcsfml"
+    },
+    {
+      "name": "libcsoap"
+    },
+    {
+      "name": "libcss-compressor-perl"
+    },
+    {
+      "name": "libcss-dom-perl"
+    },
+    {
+      "name": "libcss-inliner-perl"
+    },
+    {
+      "name": "libcss-lessp-perl"
+    },
+    {
+      "name": "libcss-minifier-perl"
+    },
+    {
+      "name": "libcss-minifier-xs-perl"
+    },
+    {
+      "name": "libcss-packer-perl"
+    },
+    {
+      "name": "libcss-perl"
+    },
+    {
+      "name": "libcss-squish-perl"
+    },
+    {
+      "name": "libcss-tiny-perl"
+    },
+    {
+      "name": "libcsv"
+    },
+    {
+      "name": "libcsv-java"
+    },
+    {
+      "name": "libcsv-ruby"
+    },
+    {
+      "name": "libctapimkt"
+    },
+    {
+      "name": "libctk"
+    },
+    {
+      "name": "libctl"
+    },
+    {
+      "name": "libcuckoo"
+    },
+    {
+      "name": "libcucumber-tagexpressions-perl"
+    },
+    {
+      "name": "libcudacxx"
+    },
+    {
+      "name": "libcue"
+    },
+    {
+      "name": "libcurl-easy-perl"
+    },
+    {
+      "name": "libcurry-perl"
+    },
+    {
+      "name": "libcurses-perl"
+    },
+    {
+      "name": "libcurses-ui-perl"
+    },
+    {
+      "name": "libcurses-widgets-perl"
+    },
+    {
+      "name": "libcutl"
+    },
+    {
+      "name": "libcvd"
+    },
+    {
+      "name": "libcvs-perl"
+    },
+    {
+      "name": "libcwd"
+    },
+    {
+      "name": "libcwd-guard-perl"
+    },
+    {
+      "name": "libcwiimote"
+    },
+    {
+      "name": "libcxgb3"
+    },
+    {
+      "name": "libcxl"
+    },
+    {
+      "name": "libcxx-serial"
+    },
+    {
+      "name": "libcyaml"
+    },
+    {
+      "name": "libcypher-parser"
+    }
+  ],
+  "prefix": "libc",
+  "suite": ""
+}

@@ -1,29 +1,74 @@
-// type Package = {
-//   name: string;
-//   installs: number;
-//   description: string;
-//   maintainer_link: string;
-//   versions: string[];
-//   tags: string[];
-//   license: string;
-// };
+type Package = {
+  name: string;
+  installs: number;
+  description: string;
+  maintainer_link: string;
+  versions: string[];
+  tags: string[];
+  license: string;
+};
 
-// async function getPackage(package_url: string): Package {}
-// async function getSearch(search_url: string): Packages {}
-
-async function getSearch() {}
-
-export async function logMovies() {
-  const response = await fetch(
-    "https://sources.debian.org/patches/api/prefix/libz/",
-    { mode: "no-cors" }
-  );
-  console.log(response);
-  const movies = await response.json();
-  console.log(movies);
+export function getPackage() {
+  console.log("Requesting package...");
+  fetch("https://sources.debian.org/api/src/docker")
+    .then((response) => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then((data) => console.log(data))
+    .catch((error) =>
+      console.error("Error fetching package information:", error)
+    );
 }
 
-fetch("https://sources.debian.org/patches/api/prefix/libz/")
-  .then((response) => response.json())
-  .then((data) => console.log(data))
-  .catch((error) => console.error("Error:", error));
+export function getPackages() {
+  console.log("Requesting packages...");
+  fetch("https://sources.debian.org/api/search/code/")
+    .then((response) => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then((data) => console.log(data))
+    .catch((error) =>
+      console.error("Error fetching package information:", error)
+    );
+}
+
+export function getPackageList() {
+  console.log("Requesting packages...");
+  fetch("https://sources.debian.org/api/list/")
+    .then((response) => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then((data) => console.log(data))
+    .catch((error) =>
+      console.error("Error fetching package information:", error)
+    );
+}
+
+export function getPackageSearch() {
+  console.log("Requesting packages...");
+  fetch("https://sources.debian.org/api/search/go/")
+    .then((response) => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then((data) => console.log(data))
+    .catch((error) =>
+      console.error("Error fetching package information:", error)
+    );
+}
+
+export function getPackageListPrefix() {
+  console.log("Requesting packages...");
+  fetch("https://sources.debian.org/api/prefix/libc")
+    .then((response) => {
+      if (!response.ok) throw new Error("Network response was not ok");
+      return response.json();
+    })
+    .then((data) => console.log(data))
+    .catch((error) =>
+      console.error("Error fetching package information:", error)
+    );
+}

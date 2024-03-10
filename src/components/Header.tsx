@@ -13,7 +13,13 @@ import { Link } from "react-router-dom";
 
 import { Form } from "react-router-dom";
 
-import { logMovies } from "../utils/fetch.ts";
+import {
+  getPackage,
+  getPackageList,
+  getPackageListPrefix,
+  getPackageSearch,
+  getPackages,
+} from "../utils/fetch.ts";
 
 export const Header = () => {
   return (
@@ -77,32 +83,28 @@ export const Header = () => {
           placeholder="&#xF002; Search apt packages"
           style={{ fontFamily: "Arial, FontAwesome" }}
           autoComplete="on"
-          autoFocus
         />
       </Form>
-      <Link style={{ border: "none" }} to={"/package"}>
+      <Link style={{ border: "none" }} to={"/"}>
+        {/* <Link style={{ border: "none" }} to={"/package"}> */}
+        <button style={{ margin: "1rem" }} autoFocus onClick={getPackage}>
+          getPackage
+        </button>
+        <button style={{ margin: "1rem" }} autoFocus onClick={getPackages}>
+          getPackages
+        </button>
+        <button style={{ margin: "1rem" }} autoFocus onClick={getPackageList}>
+          getPackageList
+        </button>
+        <button style={{ margin: "1rem" }} autoFocus onClick={getPackageSearch}>
+          getPackageSearch
+        </button>
         <button
           style={{ margin: "1rem" }}
-          // autoFocus
-          onClick={() => {
-            console.log("Starting Request...");
-
-            // fetch("https://sources.debian.org/patches/api/prefix/libz/")
-            //   .then((response) => {
-            //     if (!response.ok) {
-            //       console.log(response.status);
-            //       console.log(response.statusText);
-            //       throw new Error("Network response was not ok");
-            //     }
-            //     return response.json();
-            //   })
-            //   .then((data) => console.log(data))
-            //   .catch((error) =>
-            //     console.error("Error fetching package information:", error)
-            //   );
-          }}
+          autoFocus
+          onClick={getPackageListPrefix}
         >
-          /package
+          getPackageListPrefix
         </button>
       </Link>
     </section>
