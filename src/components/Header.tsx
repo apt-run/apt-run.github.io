@@ -73,12 +73,11 @@ export const Header = () => {
           placeholder="&#xF002; Search apt pacckages"
           style={{ fontFamily: "Arial, FontAwesome" }}
           autoComplete="on"
-          autoFocus
           // autoFocus
         />
       </form>
 
-      <form action="/package" method="get">
+      <form action="https://apt.run/package" method="get">
         <input
           type="submit"
           value="Go to /package"
