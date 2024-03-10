@@ -1,11 +1,12 @@
-import "./Table.css";
-import { Link } from "react-router-dom";
+import "./Table.css"
+import { Link } from "react-router-dom"
 
-import { FaRegCopy } from "react-icons/fa";
-import { RiPlayListAddLine } from "react-icons/ri";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaRegCopy } from "react-icons/fa"
+import { RiPlayListAddLine } from "react-icons/ri"
+import { FaExternalLinkAlt } from "react-icons/fa"
 
-import package_list_json from "../../data/list.json";
+import package_list_json from "../../data/list.json"
+import { useEffect, useState } from "react"
 
 function CopyComponent() {
   return (
@@ -13,30 +14,30 @@ function CopyComponent() {
       <div>copy_command</div>
       <FaRegCopy />
     </section>
-  );
+  )
 }
 
-type TableCard = {
-  package_name: string;
-  package_link: string;
-  package_command: string;
-};
+// type TableCard = {
+//   package_name: string
+//   package_link: string
+//   package_command: string
+// }
 
-export interface List {
-  packages: Package[];
-}
-export interface Package {
-  name: string;
-}
+// export interface List {
+//   packages: Package[]
+// }
+// export interface Package {
+//   name: string
+// }
 
 function TableCard() {
-  const data: List = package_list_json;
-  const slice = data.packages.slice(0, 20);
+  const data = package_list_json
+  const slice = data.packages.slice(0, 4)
 
   return (
     <>
-      {slice.map((item) => (
-        <section className="tablecard">
+      {slice.map((item, index) => (
+        <section className="tablecard" key={index}>
           <div className="tablecardtitle">
             <Link style={{ border: "none" }} to="/package">
               <div>{item.name}</div>
@@ -53,7 +54,7 @@ function TableCard() {
         </section>
       ))}
     </>
-  );
+  )
 }
 
 export default function Table() {
@@ -61,11 +62,7 @@ export default function Table() {
     <>
       <section className="table">
         <TableCard />
-        <TableCard />
-        <TableCard />
-        <TableCard />
-        <TableCard />
       </section>
     </>
-  );
+  )
 }
