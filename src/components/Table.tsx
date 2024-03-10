@@ -5,6 +5,8 @@ import { FaRegCopy } from "react-icons/fa";
 import { RiPlayListAddLine } from "react-icons/ri";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
+import package_list_json from "../../data/list.json";
+
 function CopyComponent() {
   return (
     <section className="copyinput">
@@ -13,24 +15,43 @@ function CopyComponent() {
     </section>
   );
 }
+
+type TableCard = {
+  package_name: string;
+  package_link: string;
+  package_command: string;
+};
+
+export interface List {
+  packages: Package[];
+}
+export interface Package {
+  name: string;
+}
+
 function TableCard() {
+  const data: List = package_list_json;
+  const slice = data.packages.slice(0, 20);
+
   return (
     <>
-      <section className="tablecard">
-        <div className="tablecardtitle">
-          <div>package_name</div>
-          <RiPlayListAddLine />
-        </div>
-        <section className="tablecardlink">
-          <Link style={{ border: "none" }} to="/package">
-            package_link
-          </Link>
-          <Link style={{ border: "none" }} to="/package">
-            <FaExternalLinkAlt />
-          </Link>
+      {slice.map((item) => (
+        <section className="tablecard">
+          <div className="tablecardtitle">
+            <Link style={{ border: "none" }} to="/package">
+              <div>{item.name}</div>
+            </Link>
+            <RiPlayListAddLine />
+          </div>
+          <section className="tablecardlink">
+            <div></div>
+            <Link style={{ border: "none" }} to="/package">
+              <FaExternalLinkAlt />
+            </Link>
+          </section>
+          <CopyComponent />
         </section>
-        <CopyComponent />
-      </section>
+      ))}
     </>
   );
 }
