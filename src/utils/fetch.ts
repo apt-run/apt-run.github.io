@@ -1,16 +1,10 @@
-type Package = {
-  name: string;
-  installs: number;
-  description: string;
-  maintainer_link: string;
-  versions: string[];
-  tags: string[];
-  license: string;
-};
+// type Package = {
+//   name: string;
+// };
 
 export function getPackage() {
   console.log("Requesting package...");
-  fetch("https://sources.debian.org/api/src/docker")
+  fetch("https://sources.debian.org/api/src/libc")
     .then((response) => {
       if (!response.ok) throw new Error("Network response was not ok");
       return response.json();

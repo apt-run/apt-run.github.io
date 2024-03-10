@@ -77,6 +77,7 @@ export const Header = () => {
       </div>
 
       <div className="title">apt.run</div>
+
       <Form method="get" action="/search" className="header-footer">
         <input
           className="searchinput"
@@ -85,20 +86,28 @@ export const Header = () => {
           autoComplete="on"
         />
       </Form>
+
       <Link style={{ border: "none" }} to={"/"}>
-        {/* <Link style={{ border: "none" }} to={"/package"}> */}
         <button style={{ margin: "1rem" }} autoFocus onClick={getPackage}>
           getPackage
         </button>
+      </Link>
+      <Link style={{ border: "none" }} to={"/"}>
         <button style={{ margin: "1rem" }} autoFocus onClick={getPackages}>
           getPackages
         </button>
+      </Link>
+      <Link style={{ border: "none" }} to={"/search"}>
         <button style={{ margin: "1rem" }} autoFocus onClick={getPackageList}>
           getPackageList
         </button>
+      </Link>
+      <Link style={{ border: "none" }} to={"/"}>
         <button style={{ margin: "1rem" }} autoFocus onClick={getPackageSearch}>
           getPackageSearch
         </button>
+      </Link>
+      <Link style={{ border: "none" }} to={"/"}>
         <button
           style={{ margin: "1rem" }}
           autoFocus
