@@ -9,12 +9,13 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 
 // import { IoIosSearch } from "react-icons/io";
+// import { IoSearch } from "react-icons/io5";
 
 export const Header = () => {
   return (
     <section className="header">
       <section className="topbar">
-        <Link className="toplink" to="/">
+        <Link className="toplink apt" to="/">
           <img src={aptlogo} alt="" style={{ width: "3rem", height: "3rem" }} />
         </Link>
         <Link className="toplink" to="https://wiki.debian.org/Apt">
@@ -66,13 +67,25 @@ export const Header = () => {
       </div>
 
       <h1>apt.run</h1>
-      <section className="header-footer">
+      <form className="header-footer" action="/search" method="get">
         <input
           className="searchinput"
-          placeholder="Search Packages"
-          type="search"
+          placeholder="&#xF002; Search apt pacckages"
+          style={{ fontFamily: "Arial, FontAwesome" }}
+          autoComplete="on"
+          autoFocus
+          // autoFocus
         />
-      </section>
+      </form>
+
+      <form action="/package" method="get">
+        <input
+          type="submit"
+          value="Go to /package"
+          name="Submit"
+          id="frm1_submit"
+        />
+      </form>
     </section>
   );
 };
