@@ -13,6 +13,8 @@ import { Link } from "react-router-dom";
 
 import { Form } from "react-router-dom";
 
+import { logMovies } from "../utils/fetch.ts";
+
 export const Header = () => {
   return (
     <section className="header">
@@ -79,7 +81,20 @@ export const Header = () => {
         />
       </Form>
       <Link style={{ border: "none" }} to={"/package"}>
-        <button style={{ margin: "1rem" }}>/package</button>
+        <button
+          style={{ margin: "1rem" }}
+          autoFocus
+          // onClick={async () => {
+          //   const res = await fetch(
+          //     "https://sources.debian.org/patches/api/prefix/libz/"
+          //   );
+          //   if (!res.ok) throw new Error("Failed to fetch More Properties.");
+          //   const data = await res.json();
+          //   console.log(data);
+          // }}
+        >
+          /package
+        </button>
       </Link>
     </section>
   );
