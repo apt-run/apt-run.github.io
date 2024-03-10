@@ -4,27 +4,27 @@ export default function Package() {
   return (
     <>
       <section className="package">
-        <p>Install</p>
+        <h2>Install</h2>
         ### copy component ###
-        <p>About</p>
+        <h2>About</h2>
         text
-        <p>Tags</p>
+        <h2>Tags</h2>
         ### tag component ###
-        <p>License</p>
+        <h2>License</h2>
         license
-        <p>Add to List</p>
+        <h2>Add to List</h2>
         ### in developmet ###
-        <p>Installs</p>
+        <h2>Installs</h2>
         ### charts js component ###
-        <p>Versions</p>
+        <h2>Versions</h2>
         ### list of copy components ###
       </section>
       <main className="main-container">
-        <p> 🔨 In Developement </p>
+        <h2> 🔨 In Developement </h2>
         <div>package_page</div>
-        <p>
+        <h2>
           🔨 Contribute <a>https://github.com/apt-run </a> !{" "}
-        </p>
+        </h2>
       </main>
     </>
   );
