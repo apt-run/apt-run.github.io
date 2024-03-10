@@ -11,6 +11,8 @@ import { Link } from "react-router-dom";
 // import { IoIosSearch } from "react-icons/io";
 // import { IoSearch } from "react-icons/io5";
 
+import { Form } from "react-router-dom";
+
 export const Header = () => {
   return (
     <section className="header">
@@ -67,7 +69,7 @@ export const Header = () => {
       </div>
 
       <h1>apt.run</h1>
-      <form className="header-footer" action="/search" method="get">
+      <Form method="get" action="/search" className="header-footer">
         <input
           className="searchinput"
           placeholder="&#xF002; Search apt pacckages"
@@ -75,16 +77,10 @@ export const Header = () => {
           autoComplete="on"
           // autoFocus
         />
-      </form>
-
-      <form action="https://apt.run/package" method="get">
-        <input
-          type="submit"
-          // value="Go to /package"
-          name="Submit"
-          id="frm1_submit"
-        />
-      </form>
+      </Form>
+      <Link style={{ border: "none" }} to={"/package"}>
+        <button style={{ margin: "1rem" }}>/package</button>
+      </Link>
     </section>
   );
 };
