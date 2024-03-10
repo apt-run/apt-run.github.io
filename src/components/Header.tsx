@@ -80,7 +80,7 @@ export const Header = () => {
       <form action="https://apt.run/package" method="get">
         <input
           type="submit"
-          value="Go to /package"
+          // value="Go to /package"
           name="Submit"
           id="frm1_submit"
         />
