@@ -5,9 +5,12 @@ function TableCard() {
   return (
     <>
       <section className="table-card">
-        <div>Title</div>
-        <div>Subtitle</div>
-        <Link to="/package">Package_Name</Link>
+        <div>package_name</div>
+        <div>maintainer</div>
+        <Link style={{ border: "none" }} to="/package">
+          description
+        </Link>
+        <div>copy_command</div>
       </section>
     </>
   );
