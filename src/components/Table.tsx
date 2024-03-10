@@ -6,7 +6,6 @@ import { RiPlayListAddLine } from "react-icons/ri"
 import { FaExternalLinkAlt } from "react-icons/fa"
 
 import package_list_json from "../../data/list.json"
-import { useEffect, useState } from "react"
 
 function CopyComponent() {
   return (
