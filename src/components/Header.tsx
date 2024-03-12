@@ -1,3 +1,4 @@
+import "./Header.css"
 import reactLogo from "/react.svg"
 import debianlogo from "/debian2.svg"
 import ubuntulogo from "/ubuntu.svg"
@@ -6,13 +7,12 @@ import aptlogo from "/apttest.png"
 import viteLogo from "/vite.svg"
 import gopher from "/gopher.svg"
 
-import "./Header.css"
 import { Link } from "react-router-dom"
+import { Form } from "react-router-dom"
 // import { IoIosSearch } from "react-icons/io";
 // import { IoSearch } from "react-icons/io5";
-import { Form } from "react-router-dom"
 
-export const Header = () => {
+export default function Header() {
   return (
     <section className="header">
       <section className="topbar">

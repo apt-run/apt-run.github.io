@@ -1,25 +1,16 @@
 import "./Table.css"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
+import placeholderlist from "../../data/list.json"
 
 import { FaRegCopy } from "react-icons/fa"
 import { RiPlayListAddLine } from "react-icons/ri"
 // import { FaExternalLinkAlt } from "react-icons/fa"
 
-import { useEffect, useState } from "react"
-import placeholderlist from "../../data/list.json"
 type Data = {
   packages: {
     name: string
   }[]
-}
-
-function CopyComponent() {
-  return (
-    <section className="copyinput">
-      <div>copy_command</div>
-      <FaRegCopy />
-    </section>
-  )
 }
 
 export default function Table() {
@@ -86,5 +77,14 @@ function TableCard() {
         </section>
       ))}
     </>
+  )
+}
+
+function CopyComponent() {
+  return (
+    <section className="copyinput">
+      <div>copy_command</div>
+      <FaRegCopy />
+    </section>
   )
 }
