@@ -4,6 +4,7 @@ import ubuntulogo from "/ubuntu.svg"
 import mintlogo from "/mint.svg"
 import aptlogo from "/apttest.png"
 import viteLogo from "/vite.svg"
+import gopher from "/gopher.svg"
 
 import "./Header.css"
 import { Link } from "react-router-dom"
@@ -75,11 +76,30 @@ export const Header = () => {
           style={{ fontFamily: "Arial, FontAwesome" }}
           autoComplete="on"
         />
-      </Form>
 
-      <Link style={{ border: "none" }} to={"/search"}>
-        <button style={{ margin: "1rem" }}>Search</button>
-      </Link>
+        <Link style={{ border: "none" }} to={"/search"}>
+          <button style={{ margin: "1rem" }}>Search</button>
+        </Link>
+      </Form>
+      <a
+        href="https://go.dev"
+        target="_blank"
+        className="logolink react"
+        style={{
+          animation: "none",
+          padding: "0",
+        }}
+      >
+        <img
+          src={gopher}
+          className="logo react"
+          alt="React logo"
+          style={{
+            animation: "none",
+            padding: "0",
+          }}
+        />
+      </a>
     </section>
   )
 }
