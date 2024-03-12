@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 import { FaRegCopy } from "react-icons/fa"
 import { RiPlayListAddLine } from "react-icons/ri"
-import { FaExternalLinkAlt } from "react-icons/fa"
+// import { FaExternalLinkAlt } from "react-icons/fa"
 
 import { useEffect, useState } from "react"
 import placeholderlist from "../../data/list.json"
