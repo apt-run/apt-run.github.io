@@ -1,25 +1,16 @@
-import reactLogo from "/react.svg";
-import debianlogo from "/debian2.svg";
-import ubuntulogo from "/ubuntu.svg";
-import mintlogo from "/mint.svg";
-import aptlogo from "/apttest.png";
-import viteLogo from "/vite.svg";
+import reactLogo from "/react.svg"
+import debianlogo from "/debian2.svg"
+import ubuntulogo from "/ubuntu.svg"
+import mintlogo from "/mint.svg"
+import aptlogo from "/apttest.png"
+import viteLogo from "/vite.svg"
 
-import "./Header.css";
-import { Link } from "react-router-dom";
-
+import "./Header.css"
+import { Link } from "react-router-dom"
 // import { IoIosSearch } from "react-icons/io";
 // import { IoSearch } from "react-icons/io5";
-
-import { Form } from "react-router-dom";
-
-import {
-  getPackage,
-  getPackageList,
-  getPackageListPrefix,
-  getPackageSearch,
-  getPackages,
-} from "../utils/fetch.ts";
+import { Form } from "react-router-dom"
+import { getList, getSearch } from "../utils/fetch.ts"
 
 export const Header = () => {
   return (
@@ -78,7 +69,12 @@ export const Header = () => {
 
       <div className="title">apt.run</div>
 
-      <Form method="get" action="/search" className="header-footer">
+      <Form
+        method="get"
+        action="/search"
+        className="header-footer"
+        onSubmit={getList}
+      >
         <input
           className="searchinput"
           placeholder="&#xF002; Search apt packages"
@@ -87,35 +83,16 @@ export const Header = () => {
         />
       </Form>
 
-      <Link style={{ border: "none" }} to={"/"}>
-        <button style={{ margin: "1rem" }} autoFocus onClick={getPackage}>
-          getPackage
-        </button>
-      </Link>
-      <Link style={{ border: "none" }} to={"/"}>
-        <button style={{ margin: "1rem" }} autoFocus onClick={getPackages}>
-          getPackages
-        </button>
-      </Link>
       <Link style={{ border: "none" }} to={"/search"}>
-        <button style={{ margin: "1rem" }} autoFocus onClick={getPackageList}>
-          getPackageList
+        <button style={{ margin: "1rem" }} onClick={getList}>
+          getList
         </button>
       </Link>
       <Link style={{ border: "none" }} to={"/"}>
-        <button style={{ margin: "1rem" }} autoFocus onClick={getPackageSearch}>
-          getPackageSearch
-        </button>
-      </Link>
-      <Link style={{ border: "none" }} to={"/"}>
-        <button
-          style={{ margin: "1rem" }}
-          autoFocus
-          onClick={getPackageListPrefix}
-        >
-          getPackageListPrefix
+        <button style={{ margin: "1rem" }} onClick={getSearch}>
+          getSearch
         </button>
       </Link>
     </section>
-  );
-};
+  )
+}
