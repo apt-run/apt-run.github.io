@@ -1,5 +1,5 @@
-import Table from "../components/Table";
-import "./Main.css";
+import Table from "../components/Table"
+import "./Main.css"
 
 export default function Search() {
   return (
@@ -14,5 +14,5 @@ export default function Search() {
         </p>
       </section>
     </>
-  );
+  )
 }

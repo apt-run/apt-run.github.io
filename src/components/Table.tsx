@@ -5,7 +5,13 @@ import { FaRegCopy } from "react-icons/fa"
 import { RiPlayListAddLine } from "react-icons/ri"
 import { FaExternalLinkAlt } from "react-icons/fa"
 
-import package_list_json from "../../data/list.json"
+import { useEffect, useState } from "react"
+import placeholderlist from "../../data/list.json"
+type Data = {
+  packages: {
+    name: string
+  }[]
+}
 
 function CopyComponent() {
   return (
@@ -16,26 +22,53 @@ function CopyComponent() {
   )
 }
 
-// type TableCard = {
-//   package_name: string
-//   package_link: string
-//   package_command: string
-// }
+export default function Table() {
+  const API_SEARCH_URL = "http://localhost:3000/search"
+  const [data, setData] = useState<Data>(placeholderlist)
 
-// export interface List {
-//   packages: Package[]
-// }
-// export interface Package {
-//   name: string
-// }
+  const fetchData = () => {
+    return fetch(API_SEARCH_URL)
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data)
+        console.log(data)
+      })
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [])
+  return (
+    <>
+      <section className="listcontainer">
+        {data.packages.map((item, index) => (
+          <div key={index}>{item.name}</div>
+        ))}
+      </section>
+      <section className="table">
+        <TableCard />
+      </section>
+    </>
+  )
+}
 
 function TableCard() {
-  const data = package_list_json
-  const slice = data.packages.slice(0, 4)
+  const API_SEARCH_URL = "http://localhost:3000/search"
+  const [data, setData] = useState<Data>(placeholderlist)
+
+  const fetchData = () => {
+    return fetch(API_SEARCH_URL)
+      .then((response) => response.json())
+      .then((data) => setData(data))
+  }
+
+  useEffect(() => {
+    fetchData()
+  }, [])
 
   return (
     <>
-      {slice.map((item, index) => (
+      {data.packages.map((item, index) => (
         <section className="tablecard" key={index}>
           <div className="tablecardtitle">
             <Link style={{ border: "none" }} to="/package">
@@ -52,16 +85,6 @@ function TableCard() {
           <CopyComponent />
         </section>
       ))}
-    </>
-  )
-}
-
-export default function Table() {
-  return (
-    <>
-      <section className="table">
-        <TableCard />
-      </section>
     </>
   )
 }

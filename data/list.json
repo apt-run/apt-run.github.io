@@ -28,118 +28,37 @@
       "name": "2vcard"
     },
     {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
-      "name": "2vcard"
-    },
-    {
       "name": "3270"
+    },
+    {
+      "name": "3270font"
+    },
+    {
+      "name": "389-admin"
+    },
+    {
+      "name": "389-admin-console"
+    },
+    {
+      "name": "389-adminutil"
+    },
+    {
+      "name": "389-console"
+    },
+    {
+      "name": "389-ds-base"
+    },
+    {
+      "name": "389-ds-console"
+    },
+    {
+      "name": "389-dsgw"
+    },
+    {
+      "name": "3c5x9utils"
+    },
+    {
+      "name": "3d-ascii-viewer-c"
     }
   ]
 }
