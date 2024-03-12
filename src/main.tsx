@@ -1,10 +1,10 @@
+import "./index.css"
 import React from "react"
 import ReactDOM from "react-dom/client"
-import "./index.css"
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"
 import Home from "./routes/Home.tsx"
-import { Header } from "./components/Header.tsx"
+import Header from "./components/Header.tsx"
 import Package from "./routes/Package.tsx"
 import Search from "./routes/Search.tsx"
 import Footer from "./components/Footer.tsx"

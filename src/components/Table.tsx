@@ -14,21 +14,17 @@ type Data = {
 }
 
 export default function Table() {
-  const API_SEARCH_URL = "http://localhost:3000/search"
   const [data, setData] = useState<Data>(placeholderlist)
 
-  const fetchData = () => {
-    return fetch(API_SEARCH_URL)
-      .then((response) => response.json())
-      .then((data) => {
-        setData(data)
-        console.log(data)
-      })
+  async function fetchData() {
+    const response = await fetch("http://localhost:3000/search")
+    const data = await response.json()
+    setData(data)
   }
-
   useEffect(() => {
     fetchData()
   }, [])
+
   return (
     <>
       <section className="listcontainer">
@@ -44,15 +40,13 @@ export default function Table() {
 }
 
 function TableCard() {
-  const API_SEARCH_URL = "http://localhost:3000/search"
   const [data, setData] = useState<Data>(placeholderlist)
 
-  const fetchData = () => {
-    return fetch(API_SEARCH_URL)
-      .then((response) => response.json())
-      .then((data) => setData(data))
+  async function fetchData() {
+    const response = await fetch("http://localhost:3000/search")
+    const data = await response.json()
+    return setData(data)
   }
-
   useEffect(() => {
     fetchData()
   }, [])
