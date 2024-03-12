@@ -78,9 +78,9 @@ function TableCard() {
           </div>
           <section className="tablecardlink">
             <div></div>
-            <Link style={{ border: "none" }} to="/package">
-              <FaExternalLinkAlt />
-            </Link>
+            {/* <Link style={{ border: "none" }} to="/package"> */}
+            {/* <FaExternalLinkAlt /> */}
+            {/* </Link> */}
           </section>
           <CopyComponent />
         </section>

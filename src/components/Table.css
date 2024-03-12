@@ -24,7 +24,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border: solid 1px white;
+  /* border: solid 1px white; */
+  background-color: #404040;
   border-radius: 4px;
   padding: 1.5rem;
   width: 400px;
@@ -58,10 +59,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border: solid 1px white;
+  /* border: solid 1px white; */
   border-radius: 4px;
   padding: 0.5rem;
-  background-color: #404040;
+  /* background-color: #1a1a1a; */
+  background-color: #383838;
 }
 
 .copybutton {
