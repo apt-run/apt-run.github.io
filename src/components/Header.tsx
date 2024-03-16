@@ -69,18 +69,21 @@ export default function Header() {
 
       <div className="title">apt.run</div>
 
-      <Form method="get" action="/search" className="header-footer">
+      <Form method="get" action="search" className="header-footer">
         <input
+          type="text"
+          name="name"
           className="searchinput"
           placeholder="&#xF002; Search apt packages"
           style={{ fontFamily: "Arial, FontAwesome" }}
           autoComplete="on"
         />
 
-        <Link style={{ border: "none" }} to={"/search"}>
-          <button style={{ margin: "1rem" }}>Search</button>
-        </Link>
+        <button style={{ margin: "1rem" }} type="submit">
+          Search
+        </button>
       </Form>
+
       <a
         href="https://go.dev"
         target="_blank"
