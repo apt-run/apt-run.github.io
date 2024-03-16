@@ -1,1 +1,6 @@
-# website
+### TODO
+
+icons
+images
+links
+contributing

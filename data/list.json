@@ -1,0 +1,64 @@
+{
+  "packages": [
+    {
+      "name": "0ad"
+    },
+    {
+      "name": "0ad-data"
+    },
+    {
+      "name": "0xffff"
+    },
+    {
+      "name": "1oom"
+    },
+    {
+      "name": "2048"
+    },
+    {
+      "name": "2048-qt"
+    },
+    {
+      "name": "2ping"
+    },
+    {
+      "name": "2utf"
+    },
+    {
+      "name": "2vcard"
+    },
+    {
+      "name": "3270"
+    },
+    {
+      "name": "3270font"
+    },
+    {
+      "name": "389-admin"
+    },
+    {
+      "name": "389-admin-console"
+    },
+    {
+      "name": "389-adminutil"
+    },
+    {
+      "name": "389-console"
+    },
+    {
+      "name": "389-ds-base"
+    },
+    {
+      "name": "389-ds-console"
+    },
+    {
+      "name": "389-dsgw"
+    },
+    {
+      "name": "3c5x9utils"
+    },
+    {
+      "name": "3d-ascii-viewer-c"
+    }
+  ]
+}
