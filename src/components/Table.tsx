@@ -1,59 +1,54 @@
 import "./Table.css"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
-import placeholderlist from "../../data/list.json"
+import { Link, useLocation } from "react-router-dom"
 
 import { FaRegCopy } from "react-icons/fa"
 import { RiPlayListAddLine } from "react-icons/ri"
 // import { FaExternalLinkAlt } from "react-icons/fa"
 
 type Data = {
-  packages: {
+  results: {
     name: string
+    installs: number
+    maintainer: string
   }[]
 }
 
 export default function Table() {
-  const [data, setData] = useState<Data>(placeholderlist)
+  const [data, setData] = useState<Data>()
+  let { search } = useLocation()
 
   async function fetchData() {
-    const response = await fetch("http://localhost:3000/search")
+    const response = await fetch("http://34.127.37.168/search" + search)
     const data = await response.json()
     setData(data)
   }
+
   useEffect(() => {
     fetchData()
-  }, [])
+  }, [search])
 
-  return (
-    <>
-      <section className="listcontainer">
-        {data.packages.map((item, index) => (
-          <div key={index}>{item.name}</div>
-        ))}
-      </section>
-      <section className="table">
-        <TableCard />
-      </section>
-    </>
-  )
+  if (data?.results != null) {
+    return (
+      <>
+        <section className="listcontainer">
+          {data.results.map((item, index) => (
+            <div key={index}>{item.name}</div>
+          ))}
+        </section>
+        <section className="table">
+          <TableCard data={data} />
+        </section>
+      </>
+    )
+    return <></>
+  }
 }
 
-function TableCard() {
-  const [data, setData] = useState<Data>(placeholderlist)
-
-  async function fetchData() {
-    const response = await fetch("http://localhost:3000/search")
-    const data = await response.json()
-    return setData(data)
-  }
-  useEffect(() => {
-    fetchData()
-  }, [])
-
+function TableCard({ data }: { data: Data }) {
   return (
     <>
-      {data.packages.map((item, index) => (
+      {data.results.map((item, index) => (
         <section className="tablecard" key={index}>
           <div className="tablecardtitle">
             <Link style={{ border: "none" }} to="/package">
