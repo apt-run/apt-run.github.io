@@ -16,7 +16,7 @@ type Data = {
 
 export default function Table() {
   const [data, setData] = useState<Data>()
-  let { search } = useLocation()
+  const { search } = useLocation()
 
   async function fetchData() {
     const response = await fetch("http://34.127.37.168/search" + search)
