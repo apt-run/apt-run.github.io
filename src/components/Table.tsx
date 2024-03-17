@@ -19,7 +19,7 @@ export default function Table() {
   let { search } = useLocation()
 
   async function fetchData() {
-    const response = await fetch("http://localhost:3000/search" + search)
+    const response = await fetch("http://34.127.37.168/search" + search)
     const data = await response.json()
     setData(data)
   }
