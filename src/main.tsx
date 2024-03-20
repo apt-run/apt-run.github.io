@@ -31,8 +31,8 @@ const router = createBrowserRouter([
         path: "/search",
         element: <Search />,
         loader: async ({ request }) => {
-          let url = new URL(request.url)
-          let searchTerm = url.searchParams.get("name")
+          const url = new URL(request.url)
+          const searchTerm = url.searchParams.get("name")
           // return fakeSearchProducts(searchTerm)
           return searchTerm
         },
