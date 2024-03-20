@@ -1,54 +1,57 @@
 import "./Table.css"
 import { useEffect, useState } from "react"
 import { Link, useLocation } from "react-router-dom"
+import { createClient } from "@supabase/supabase-js";
 
 import { FaRegCopy } from "react-icons/fa"
 import { RiPlayListAddLine } from "react-icons/ri"
+import { Database } from "../supabase";
 // import { FaExternalLinkAlt } from "react-icons/fa"
 
-type Data = {
-  results: {
-    name: string
-    installs: number
-    maintainer: string
-  }[]
+
+const supabase = createClient<Database>("https://ncqhfzipwmfzyrfuynuw.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5jcWhmemlwd21menlyZnV5bnV3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTA4OTU3ODIsImV4cCI6MjAyNjQ3MTc4Mn0.S_d-fyU2ZJuiAJXnwiiHrtS_UyDGMpUkFP60V-hMSCQ");
+interface Packages {
+	rank: number;
+	name: string;
+	installs: number;
+	maintainer: string;
 }
 
 export default function Table() {
-  const [data, setData] = useState<Data>()
-  let { search } = useLocation()
-
-  async function fetchData() {
-    const response = await fetch("http://34.127.37.168/search" + search)
-    const data = await response.json()
-    setData(data)
-  }
+  const [ packages, setPackages ] = useState<Packages[]>([]);
+  const { search } = useLocation()
+  const search_string = search.split("=")[1]
 
   useEffect(() => {
-    fetchData()
-  }, [search])
+    getPackages();
+  }, [search]);
 
-  if (data?.results != null) {
+  async function getPackages() {
+    const { data } = await supabase.from("packages").select().like('name', `%${search_string}%`).limit(20);
+    setPackages(data || []);
+  }
+
+  if (packages != null) {
     return (
       <>
         <section className="listcontainer">
-          {data.results.map((item, index) => (
+          {packages.map((item, index) => (
             <div key={index}>{item.name}</div>
           ))}
         </section>
         <section className="table">
-          <TableCard data={data} />
+          <TableCard packages={packages} />
         </section>
       </>
     )
-    return <></>
   }
+  return <></>
 }
 
-function TableCard({ data }: { data: Data }) {
+function TableCard({ packages }: { packages: Packages[] }) {
   return (
     <>
-      {data.results.map((item, index) => (
+      {packages.map((item, index) => (
         <section className="tablecard" key={index}>
           <div className="tablecardtitle">
             <Link style={{ border: "none" }} to="/package">
