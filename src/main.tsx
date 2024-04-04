@@ -8,10 +8,12 @@ import Header from "./components/Header.tsx"
 import Package from "./routes/Package.tsx"
 import Search from "./routes/Search.tsx"
 import Footer from "./components/Footer.tsx"
+import Topbar from "./components/Topbar.tsx"
 
 function Layout() {
   return (
     <section className="layout">
+      <Topbar />
       <Header />
       <Outlet />
       <Footer />

@@ -39,13 +39,15 @@ export default function Table() {
             <div key={index}>{item.name}</div>
           ))}
         </section>
+        
         <section className="table">
           <TableCard packages={packages} />
         </section>
       </>
     )
+  } else {
+    return <></>
   }
-  return <></>
 }
 
 function TableCard({ packages }: { packages: Packages[] }) {

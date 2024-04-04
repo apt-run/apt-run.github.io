@@ -1,1 +1,2 @@
 highlight border glow an exact search match
+suggested packages component for homepage

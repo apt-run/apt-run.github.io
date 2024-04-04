@@ -1,12 +1,12 @@
 .listcontainer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   /* background-color: lightblue; */
   gap: 3rem;
   max-width: 50%;
-  padding-top: 5rem;
+  padding: 5rem;
 }
 .table {
   display: flex;
@@ -15,7 +15,10 @@
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  padding: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+  /* padding: 5rem; */
   /* background-color: lightblue; */
 }
 
