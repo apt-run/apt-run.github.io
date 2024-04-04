@@ -5,7 +5,7 @@ import ubuntulogo from "/ubuntu.svg"
 import mintlogo from "/mint.svg"
 import aptlogo from "/apttest.png"
 import viteLogo from "/vite.svg"
-import gopher from "/gopher.svg"
+// import gopher from "/gopher.svg"
 
 import { Link } from "react-router-dom"
 import { Form } from "react-router-dom"
@@ -84,7 +84,7 @@ export default function Header() {
         </button>
       </Form>
 
-      <a
+      {/* <a
         href="https://go.dev"
         target="_blank"
         className="logolink react"
@@ -102,7 +102,7 @@ export default function Header() {
             padding: "0",
           }}
         />
-      </a>
+      </a> */}
     </section>
   )
 }
